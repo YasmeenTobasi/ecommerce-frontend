@@ -102,11 +102,12 @@ EmptyState & Loader: معالجة الحالات الفارغة وحالات ا�
 
 📸 صور من التطبيق (App Screenshots) :
 ![اللابتوب](image-1.png)
+![تلفون](<WhatsApp Image 2026-10-15 at 3.26.58 PM.jpeg>)
 
 🌐 رابط النسخة المنشورة (Live Preview Link)
-رابط المعاينة: [ضع رابط Vercel أو Netlify الخاص بكِ هنا]
+رابط المعاينة: https://ecommerce-frontend-one-bice.vercel.app/
 
-رابط المستودع على GitHub: [ضع رابط مستودع GitHub هنا]
+رابط المستودع على GitHub: https://github.com/YasmeenTobasi/ecommerce-frontend.git
 
 ℹ️ بيان البيانات والمستقبل (Mock Data Notice)
 تنويه هام: يعتمد هذا المشروع حالياً على بيانات محلية تجريبية محاكية (Mock Data) محفوظة داخل مجلد src/data/products.js و LocalStorage. هذا التطبيق مصمم في هذه المرحلة كواجهة أمامية جاهزة ومجهزة بالكامل للربط مع واجهات برمجة التطبيقات (Backend APIs) مستقبلاً دون الحاجة لتعديل جوهري في المكونات
