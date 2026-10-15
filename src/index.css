@@ -1,0 +1,58 @@
+:root {
+  --primary-color: #581c25;       /* بيرغندي غامق وفخم */
+  --primary-hover: #401319;       /* بيرغندي أغمق للـ Hover */
+  --secondary-color: #c98a42;     /* ذهبي برونزي دافئ */
+  --background-color: #fcfbf9;    /* خلفية بيج ناعمة */
+  --surface-color: #ffffff;       /* أبيض نقي للبطاقات والنماذج */
+  --text-color: #2b2525;          /* لون النص الأساسي */
+  --muted-text-color: #786f6f;    /* لون النصوص الفرعية */
+  --success-color: #15803d;       
+  --error-color: #b91c1c;         
+  --border-radius: 12px;          
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  direction: inherit; 
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button[type="submit"], 
+.btn-primary {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+  transition: background 0.2s;
+}
+
+button[type="submit"]:hover,
+.btn-primary:hover {
+  background-color: var(--primary-hover) !important;
+}
+
+footer {
+  background-color: var(--primary-color) !important;
+  color: #f3f4f6 !important;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
